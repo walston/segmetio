@@ -18,7 +18,7 @@ function script_tag()
   <script type="text/javascript">
   var _segq = _segq || [];
   var _segs = _segs || {};
-  _segs.integration = '1381';
+  _segs.integration = <?php echo "'" . get_segmet_id() . "'"; ?>;
   (function() {
       var dc = document.createElement('script');
       dc.type = 'text/javascript'; dc.async = true;

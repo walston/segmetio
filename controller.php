@@ -8,5 +8,6 @@ Text Domain: segmetrics
 */
 namespace SegMetrics_IO_Hook;
 
+include_once(dirname(__FILE__) . '/segmet-id.php');
 include_once(dirname(__FILE__) . '/admin.php');
 include_once(dirname(__FILE__) . '/user-script.php');
